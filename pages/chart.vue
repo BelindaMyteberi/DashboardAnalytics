@@ -1,14 +1,10 @@
 <template>
   <div>
-    hello
-
+    <h1> Chart</h1>
   </div>
 </template>
 <script>
-  export default  {
+  export default {
     layout: 'sidebar'
   }
 </script>
-<style lang="scss">
-
-</style>
