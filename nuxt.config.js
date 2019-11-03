@@ -35,13 +35,16 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~plugins/worldMap.js',
   ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
+
   ],
+
 
   /*
   ** Build configuration
@@ -50,6 +53,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    transpile: ['vue-echarts', 'resize-detector'],
     extend(config, ctx) {
     }
   }
